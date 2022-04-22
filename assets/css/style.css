@@ -1,0 +1,277 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-custom-1{
+    width: 178px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-custom-1:hover{
+    opacity: 75%;
+    color: black;
+    background-color: white;
+}
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.bg-img{
+    z-index: 1;
+}
+.img-hero{
+    z-index: 1;
+}
+
+/* Navbar */
+.nav-link{
+    font-size: 16px;
+}
+.nav-link.active {
+    font-weight: 700;
+}
+.navbar-brand{
+    font-size: 24px;
+}
+
+/* Hero Section */
+#hero{
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+.hero-tagline h1{
+    line-height: 80px;
+    font-weight: 700;
+    color: #F59328;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.hero-tagline p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.bg-img{
+    z-index: -1;
+    margin-top: -85px;
+    margin-left: -10px;
+    /* position: absolute; */
+}
+
+.hero .row .bg-img{
+    z-index: 2;
+}
+
+.hero .row .bg-img{
+    z-index: 3;
+}
+
+/* Best Time section */
+#time {
+    padding: 100px 0;
+}
+.best-tagline h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.best-tagline p{
+    font-size: 20px;
+}
+
+.card-best-time {
+    width: 100%;
+    height: 245px;
+    border-radius: 15px;
+    border: solid 1px #C4C4C4;
+    padding: 30px 30px;
+
+    transition: all ease-in 0.05s;
+}
+
+.card-best-time h2 {
+    font-size: 24px;
+    font-weight: 700;
+
+    transition: all ease-in 0.05s;
+}
+
+.card-best-time p{
+    font-size: 13px;
+    font-weight: 400;
+
+    transition: all ease-in 0.05s;
+}
+
+.card-best-time:hover {
+    width: 100%;
+    height: 245px;
+    border-radius: 15px;
+    background-color: #F6972F;
+    padding: 30px;
+    color: #FFF;
+
+    transition: all ease-in 0.05ms;
+}
+
+.card-best-time:hover h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+
+    transition: all ease-in 0.05ms;
+}
+
+.card-best-time:hover p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFF;
+
+    transition: all ease-in 0.05ms;
+}
+
+
+/* Why Choose Us? */
+#why {
+    padding: 100px;
+}
+
+.why-choose h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.why-choose p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-sign{
+    width: 315px;
+    height: 490px;
+    background-color: #E1E1E1;
+    border-radius: 15px;
+}
+
+.card-why{
+    padding: 10px;
+    width: 255px;
+    height: 235px;
+    border: solid 1px #c4c4c4;
+    border-radius: 15px;
+}
+
+/* .card-why:hover{
+    padding: 10px;
+    width: 255px;
+    height: 235px;
+    border: solid 1px #c4c4c4;
+    background-color: #F6972F;
+    border-radius: 15px;
+    color: #FFF;
+
+    transition: all ease-in 0.05ms;
+} */
+
+
+/* Best Selling Section */
+
+#best-selling{
+    padding: 100px;
+}
+
+.best-selling h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.best-selling p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-best{
+    width: 100%;
+    height: 318px;
+    background-color: #FECEB8;
+    border-radius: 15px;
+}
+
+.card-selling h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-selling p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.variant-a{
+    background-color: #FECEB8;
+    transition: all ease-in 0.05ms;
+}
+.variant-b{
+    background-color: #F8DAA8;
+    transition: all ease-in 0.05ms;
+}
+
+.variant-c{
+    background-color: #C8EDF6;
+    transition: all ease-in 0.05ms;
+}
+
+/* .variant-a:hover{
+    background-color: #FFF;
+    transition: all ease-in 0.05ms;
+}
+.variant-b:hover{
+    background-color: #FFF;
+    transition: all ease-in 0.05ms;
+}
+
+.variant-c:hover{
+    background-color: #FFF;
+    transition: all ease-in 0.05ms;
+} */
+
+
+/* Customer */
+#cust{
+    padding: 100px;
+}
+
+.stat-cust {
+    width: 100%;
+    height: 160px;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+.card-stat h3{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 64px;
+}
+.underline{
+    border-bottom: solid 2px #F6972F;
+    width: 35%;
+}
+
+.card-stat p{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
